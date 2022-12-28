@@ -11,28 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.form{
-  text-align: center;
-  border: 3px solid rgb(95, 95, 237);
-  border-radius: 5px;
-  margin-left: 30%;
-  margin-right: 30%;
-}
-
-.field{
-  margin-bottom: 15px;
-}
-
-.button{
-  cursor: pointer;
-  width: auto;
-}
-
-.page{
-  margin-top: 50px;
-}
-
-.register{
-  margin-bottom: 20px;
-}
