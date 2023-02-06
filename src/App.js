@@ -1,9 +1,8 @@
 import './App.css';
-import Registration from './components/Registration';
 
 function App() {
   return (
-    <Registration/>
+    <h1>My App</h1>
   );
 }
 
