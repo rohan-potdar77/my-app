@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/ea974fdb27.js" crossorigin="anonymous"></script>
+   
+</head>
+
+<body>
+    <div id="header">
+        
+        <div class="container">
+            
+            <nav>
+                
+                <!-- <img src="images/Screenshot 2023-02-05 12448.png" alt="" class="logo"> -->
+                <h1><b style="color: red;">R</b>amesh</h1>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark fa-2x"  onclick="closemenu()"></i>
+                </ul><i  class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Ramesh</span> <br>from India</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://ik.imagekit.io/z1bwew1p7/profile.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1675788959543">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I have knowledge on frontend web technologies like html,css,bootstrap,reactjs.
+                    </p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Design web/App</li>
+                            <li><span>Web Development</span><br>App Development</li>
+                            <li><span>Mobile Development</span><br>Android/ios app</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="experience">
+                        <ul>
+                            <li><span>Reactjs developer</span><br>2021-present</li>
+                            <li><span>UI designer</span><br>2020-2021</li>
+                            <li><span>React native Developer</span><br>2019-2020</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech</span><br>KITS Engineering College</li>
+                            <li><span>Diploma</span><br>Aditya Engineering College</li>
+                            <li><span>SSC</span><br>Z.P.High School</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web designer</h2>
+                    <p>Websites designing
+                        
+
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>Web Developer</h2>
+                    <p>Dynamic web app Development
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <h2>Frontend Developer</h2>
+                    <p>Development of web apps
+
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://ik.imagekit.io/z1bwew1p7/profile.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1675788959543">
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>Development of single page applications</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://ik.imagekit.io/z1bwew1p7/profile.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1675788959543">
+                    <div class="layer">
+                        <h3>Ecommerce website</h3>
+                        <p>Products can manage using this website</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://ik.imagekit.io/z1bwew1p7/profile.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1675788959543">
+                    <div class="layer">
+                        <h3>CBS web app</h3>
+                        <p>banking master data management</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+
+    <div id="contact">
+        <div class="container">
+           <div class="row"> 
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i  class="fa-regular fa-envelope"></i>contact@example.com</p>
+                <p><i  class="fa-solid fa-phone"></i>123456789</p>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-whatsapp"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+               
+               </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn2">Submit</button>
+                    <p id="msg"></p>
+                </form>
+            </div>
+            </div>
+          
+        </div>
+    </div>
+    <div class="copyright">
+<p>
+    Copyright @ Made with  <i>R</i> by easy
+</p>
+
+
+
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+         var sidemeu = document.getElementsById("sidemenu");
+         function openmenu(){
+            sidemeu.style.right="0";
+
+         } 
+         function closemenu(){
+            sidemeu.style.right="-200px";
+            
+         }
+
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby6T3KzVbcemd1KJcWD21F-00u_nMxXkgmLq35uDGtZ_w6LvBjre_30FgzcPGlKuD41/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+
+</body>
+
+</html>

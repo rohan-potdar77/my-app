@@ -32,7 +32,7 @@ function Footer() {
                                 <span className="dropdown-toggle"></span>SHOP
                             </button>
                             <div className="collapse navbar-collapse" id="collapsibleNavbar1">
-                                <ul className="navbar-nav text-light">
+                                <ul className="navbar-nav text-light text-center">
                                     <li className="nav-item">
                                         <h6>SHOP</h6>
                                         <a className="nav-link"  href="true">Gift Card</a>
@@ -55,7 +55,7 @@ function Footer() {
                                 <span className="dropdown-toggle"></span>CUSTOMER CARE
                             </button>
                             <div className="collapse navbar-collapse" id="collapsibleNavbar2">
-                                <ul className="navbar-nav text-light ">
+                                <ul className="navbar-nav text-light text-center">
                                     <li className="nav-item" >
                                         <h6>CUSTOMER CARE</h6>
                                         <a className="nav-link"  href="true">Account</a>
@@ -81,7 +81,7 @@ function Footer() {
                                 <span className="dropdown-toggle"></span>#MADRABBIT
                             </button>
                             <div className="collapse navbar-collapse" id="collapsibleNavbar3">
-                                <ul className="navbar-nav ">
+                                <ul className="navbar-nav text-center">
                                     <li className="nav-item">
                                         <h6 className="text-light .d-md-none d-lg-block">#MADRABBIT</h6>
                                         <a className="nav-link"  href="true">Our Story</a>
@@ -97,14 +97,14 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="container d-flex justify-content-center bg-dark mb-3 text-light">
-                <div className="p-2 "><FontAwesomeIcon icon={faFacebookF} /></div>
-                <div className="p-2 "><FontAwesomeIcon icon={faInstagram}/></div>
-                <div className="p-2 "><FontAwesomeIcon icon={faMusic} /></div>
-                <div className="p-2 "><FontAwesomeIcon icon={faPinterest} /></div>
-                <div className="p-2 "><FontAwesomeIcon icon={faGamepad} /></div>
-                <div className="p-2 "><FontAwesomeIcon icon={faYoutube} /></div>
-                <div className="p-2 "><FontAwesomeIcon icon={faTwitter} /></div>
+            <div className="container d-flex justify-content-center bg-dark mb-3 text-light ">
+                <div className="p-4 "><FontAwesomeIcon icon={faFacebookF} className="h2 "/></div>
+                <div className="p-4 "><FontAwesomeIcon icon={faInstagram} className="h2"/></div>
+                <div className="p-4 "><FontAwesomeIcon icon={faMusic} className="h2"/></div>
+                <div className="p-4 "><FontAwesomeIcon icon={faPinterest} className="h2"/></div>
+                <div className="p-4"><FontAwesomeIcon icon={faGamepad} className="h2"/></div>
+                <div className="p-4 "><FontAwesomeIcon icon={faYoutube} className="h2"/></div>
+                <div className="p-4"><FontAwesomeIcon icon={faTwitter} className="h2"/></div>
 
             </div>
             <div className="container-fluid justify-content-center row  bg-dark mb-3 p-5 bg-dark text-light">
