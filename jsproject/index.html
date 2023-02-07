@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a84c4afc37.js" crossorigin="anonymous"></script>
+    <title>Sathish Kumar - Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://ik.imagekit.io/sathish2267/icon12.png?ik-sdk-version=javascript-1.4.3&updatedAt=1675751810202">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://ik.imagekit.io/sathish2267/sa.png?ik-sdk-version=javascript-1.4.3&updatedAt=1675745956942" class="logo" alt="Sathish" >
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#aboutt">About</a></li>
+                    <li><a href="#servicess">Services</a></li>
+                    <li><a href="#portfolio">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>
+                    Hi, i'm <span id="myname"> Sathish</span> <br> 
+                    From <span id="chennai"> Chennai</span>,India
+                </h1>
+            </div>
+        </div>
+    </div>
+<!------------------about------------------> 
+    <div class="about" id="aboutt">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://ik.imagekit.io/sathish2267/crr.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1675751158278" alt="">
+                </div>
+                <div class="about-col-2"> <h1 id="subtitle">About Me</h1> 
+                    <p>Innovative individual with proven success evaluating requirements for 
+                        software development projects to design innovative solutions. 
+                        Out-of-the-box thinker and problem solver dedicated to improving performance. 
+                        Works well in teams and consistently delivers to deadlines.</p> 
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                            <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                            <p class="tab-links" onclick="openTab('education')">Education</p>
+                            <p class="tab-links" onclick="openTab('certication')">Certication</p>
+                           </div>
+                           <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Front End</span><br> Using HTML,CSS & Javascript</li>
+                                <li><span>Back End</span><br> Using JAVA</li>
+                                <li><span>Store & Mange Data</span><br> Using MySQL</li>
+                            </ul>
+                           </div>
+                           <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>B.E: Mechanical Engineering(2011-2015) with 7.2 GPA</span><br> Sri Venkateshwara Institute of Science Technology | Tiruvallur, TN</li>
+                                <li><span>HSC: Major - Computer Science(2009-2011) with 81%</span><br> Dhanalakshmi.Hr.Sec.School | Chennai, TN</li>
+                                <li><span>SSLC: State Board(2009-2011) with 86%</span><br> Dhanalakshmi.Hr.Sec.School | Chennai, TN</li>
+                            </ul>
+                           </div>
+                           <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>PROCESS ASSOCIATE-SALES(06/2016 - 06/2017)</span><br> United Arab Shipping Company GSC Chennai,India</li>
+                                <li><span>SENIOR CO-ORDINATOR(06/2017 - Current)</span><br> HAPAG LLYOD GSC PVT LTD, Chennai,India</li>
+                            </ul>
+                           </div>
+                           <div class="tab-contents" id="certication">
+                            <ul>
+                                <li><span>Full stack Developer(October 2022)</span><br> I have Completed “Unikaksha Techfit java Full stack certification program” 
+                                    <br><a style="color: rgba(194, 31, 132, 0.658); text-decoration: none; cursor: pointer;" href="https://tracking.mail.sertifier.com/c/eJxVj0uKwzAMQE8T7xIs-b_wYmDoNUpiyY2hnQQnLfT240yni4IQQp-HXuW0VDrfN67nQtE7iUYJjmCtcbolIyjKoDhbUSJKRJCgAVCDGViZPDmdQ-aAHGyn5W0s16HB9pIL1yEtNzHHpCSELME7sqzVpDRCsuwloaHJO3GN876vW6e-Ojy1eHA97umT1Ab8854-WxE0hOCl99oGwE6dKudOffPxhKgvs_25ckwvTBp37lufy4PpvXCpy3093KWncSTCnrX0vUow9cyOeg_IyVGQjidR4zbuc9lmROua7-VP-ND8xzXQ51u__GZtKg" target="_blank">
+                                        Click here</a><br></li>                            
+                            </ul>
+                           </div>
+                    </div>   
+                                      
+            </div>
+        </div>
+    </div>
+<!------------------Services------------------> 
+<div class="services" id="servicess">
+    <div class="container">
+        <h1 id="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Full Stack Applications</h2>
+                <p>Using Springboot</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Full  Applications</h2>
+                <p>Using Springboot</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Stack Applications</h2>
+                <p>Using Springboot</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!---------------------Portfolio------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1><br>
+        <div class="worklist grid-rp">
+            <div class="work">
+                <img src="https://ik.imagekit.io/sathish2267/we.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1675750682805" alt="">
+                <div class="layer">
+                    <h3>Blogger page</h3>
+                    <p>
+                        Blogger page for my YouTube Channel using HTML, CSS, JS & Bootstraps
+                    </p>
+                    <a href="https://mrhobbyisttamil.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://ik.imagekit.io/sathish2267/we.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1675750682805" alt="">
+                <div class="layer">
+                    <h3>Blogger page</h3>
+                    <p>
+                        Blogger page for my YouTube Channel using HTML, CSS, JS & Bootstraps
+                    </p>
+                    <a href="https://mrhobbyisttamil.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://ik.imagekit.io/sathish2267/we.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1675750682805" alt="">
+                <div class="layer">
+                    <h3>Blogger page</h3>
+                    <p>
+                        Blogger page for my YouTube Channel using HTML, CSS, JS & Bootstraps
+                    </p>
+                    <a href="https://mrhobbyisttamil.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work rp-details hidden toggle">
+                <img src="https://ik.imagekit.io/sathish2267/we.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1675750682805" alt="">
+                <div class="layer">
+                    <h3>Blogger page</h3>
+                    <p>
+                        Blogger page for my YouTube Channel using HTML, CSS, JS & Bootstraps
+                    </p>
+                    <a href="https://mrhobbyisttamil.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work rp-details hidden toggle">
+                <img src="https://ik.imagekit.io/sathish2267/we.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1675750682805" alt="">
+                <div class="layer">
+                    <h3>Blogger page</h3>
+                    <p>
+                        Blogger page for my YouTube Channel using HTML, CSS, JS & Bootstraps
+                    </p>
+                    <a href="https://mrhobbyisttamil.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work rp-details hidden toggle">
+                <img src="https://ik.imagekit.io/sathish2267/we.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1675750682805" alt="">
+                <div class="layer">
+                    <h3>Blogger page</h3>
+                    <p>
+                        Blogger page for my YouTube Channel using HTML, CSS, JS & Bootstraps
+                    </p>
+                    <a href="https://mrhobbyisttamil.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+        </div>
+
+        <a class="btn show-more">See more</a>
+    </div>
+</div>
+
+<!---------------contact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shanmugamsathish0704@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+(91)9566377721</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/sathish526264" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/satiz_buddy/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/sathish-kumar-s-4449b911a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/channel/UCLgncU63hAgSgyqx1MrtRRA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://github.com/sathish0704" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="https://ik.imagekit.io/sathish2267/SATHISH_KUMAR.pdf?ik-sdk-version=javascript-1.4.3&updatedAt=1675751684217" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Leave Your message Here"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msgedone"></span>
+            </div>
+        </div>
+    </div>
+    <div class="Copyright">
+        <p>Copyright © Made With <i class="fa-solid fa-heart"></i>  by Sathish</p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tabLinks = document.getElementsByClassName("tab-links");
+    var tabContents = document.getElementsByClassName("tab-contents");
+    
+    function openTab(tabname)
+    {
+        for(tabLink of tabLinks)
+        {
+            tabLink.classList.remove("active-link");
+        }
+
+        for(tabContent of tabContents)
+        {
+            tabContent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }    
+    
+    var sidemenuu = document.getElementById("sidemenu");
+
+    function openmenu()
+    {
+        sidemenuu.style.right="0";
+    }
+
+    function closemenu()
+    {
+        sidemenuu.style.right="-200px";
+    }
+    
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzfIydlqDH0FNXXfxso0Ez4FQtDUDVVXiG9f1bjhQCcGYAj2qYX1mWkkFMnfBgOx08c3g/exec'
+    const form = document.forms['submit-to-google-sheet'];
+    const msgd = document.getElementById("msgedone");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        //.then(response => console.log('Success!', response))
+        .then(response => {
+            msgd.innerHTML="Message Sent Succesfully"
+            setTimeout(function(){
+                msgd.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>    
+<script>
+    document.querySelector('.show-more').addEventListener('click', function() { 
+  document.querySelectorAll('.rp-details.toggle').forEach(ele => ele.classList.toggle('hidden'))
+})
+</script>
+</body>
+</html>
