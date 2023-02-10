@@ -1,8 +1,8 @@
 import './App.css';
-
+import ProductPromise from './components/ProductPromise';
 function App() {
   return (
-    <h1>My App</h1>
+    <ProductPromise/>
   );
 }
 
