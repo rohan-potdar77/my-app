@@ -1,9 +1,13 @@
 import './App.css';
-import Registration from './components/Registration';
+import OurStory from './components/OurStory/OurStory';
+import Story from './components/OurStory/Story';
+
 
 function App() {
   return (
-    <Registration/>
+  //  <OurStory />
+  <Story/>
+   
   );
 }
 
