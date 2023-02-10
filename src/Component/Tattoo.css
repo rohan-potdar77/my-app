@@ -1,0 +1,46 @@
+
+.header-content {
+    background-color: #197bbd;
+    
+}
+.btnshop{
+    color: white;
+    background-color: #23272c;
+    /* height: 30px; */
+    width: 155px;
+    margin-right: 20%;
+    border-radius: 20px;
+    font-size: small;
+    font-weight: bold;
+    
+}
+#text{
+    color: white;
+    margin-left: 410px;
+}
+#svg1{
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+    margin-top: 9px;
+}
+#svg2{
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#logo{
+    height: 40px;
+    width: 33px;
+    margin-right: 220px;
+}
+.Nav.Link{
+    font-family: DINPro,sans-serif;
+}
+.NavDropdown.Item{
+    font-family: DINPro,sans-serif;
+} 
+#collasible-nav-dropdown{
+    font-weight: 700;
+}
