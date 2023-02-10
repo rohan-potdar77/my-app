@@ -1,9 +1,11 @@
 import './App.css';
-import Registration from './components/Registration';
+import Sub from './Subscription/Sub'
 
 function App() {
   return (
-    <Registration/>
+    <>
+    <Sub/>
+    </>
   );
 }
 
