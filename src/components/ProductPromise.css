@@ -1,79 +1,196 @@
-.sec-1{
-    background-image: url('https://cdn.shopify.com/s/files/1/0076/4156/3234/files/22_0405_MR_HP_Banner_1.png?v=1650325219');
-    background-size: cover;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-  }
-  .text{
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 1%;
-  }
-  .sec-2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 2%;
-    align-items: center;
-    height: 300px;
-    font-size: 34px;
-  }
-  .sec-2-1{
-      font-style: normal;
-      margin-bottom: 20px;
-      font-weight: 700;
-      font-size: 32px;
-      text-align: center;
-      color: #000000;
-      text-transform: initial;
-      line-height: 1.3;
-  }
-  .sec-3{
-    background-image: url('https://cdn.shopify.com/s/files/1/0076/4156/3234/files/GC_05674_1.png?v=1650325374');
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 600px;
-    width: 100%;
-  }
-  .sec-4{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .img-con{
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .center{
-    align-self: center;
-    width: 60%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-  .sec-5{
-    margin-top: 5%;
-    display: flex;
-    flex-direction: row;
-  }
-  .sec-6{
-    margin-top: 2%;
-    display: flex;
-    flex-direction: row-reverse;
-  }
-  .sec-7{
-    margin-top: 2%;
-    display: flex;
-    flex-direction: row;
-  }
-  .box-1{
-    width: 50%;
-    padding: 2%;
-  }
-  .box-2{
-    width: 50%;
-    padding: 2%;
-  }
+.sec-1 {
+  background-image: url('https://cdn.shopify.com/s/files/1/0076/4156/3234/files/22_0405_MR_HP_Banner_1.png?v=1650325219');
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.text {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 1%;
+}
+
+.sec-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2%;
+  align-items: center;
+  height: 300px;
+  font-size: 34px;
+}
+
+.sec-2-1 {
+  font-style: normal;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #000000;
+  text-transform: initial;
+  line-height: 1.3;
+}
+
+.sec-3 {
+  background-image: url('https://cdn.shopify.com/s/files/1/0076/4156/3234/files/GC_05674_1.png?v=1650325374');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 600px;
+  width: 100%;
+}
+
+.sec-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-con {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.center {
+  align-self: center;
+  width: 60%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.sec-5 {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.sec-6 {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.sec-7 {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+}
+
+.box-1 {
+  width: 50%;
+  padding: 2%;
+}
+
+.box-2 {
+  width: 50%;
+  padding: 2%;
+}
+
+.sec-8 {
+  display: flex;
+  background-image: url("https://cdn.shopify.com/s/files/1/0076/4156/3234/files/MRbrooke-010_1_1.png?v=1650387303");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  margin-top: 40px;
+  justify-content: flex-start
+}
+
+.sec-8 div {
+  width: 600px;
+  color: white;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.sec-9 {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.sec-9 h3 {
+  font-size: 200%;
+  font-weight: bolder;
+}
+
+.img-cont {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.my-img {
+  border-radius: 50%;
+}
+
+.in-div {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.ins-div {
+  display: flex;
+  height: 78px;
+}
+
+.ins-div h3 {
+  width: 80%;
+  font-size: 330%;
+}
+
+.ins-div p {
+  font-size: 65%;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.sec-10 {
+  display: flex;
+  margin-top: 20px;
+}
+
+.sec-10 .box-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sec-10 .box-2 h3 {
+  font-size: 300%;
+  font-weight: 700;
+}
+
+.sec-11 {
+  background-image: url('https://cdn.shopify.com/s/files/1/0076/4156/3234/files/GC_00159_1_1.png?v=1650396831');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 50px;
+}
+
+.sec-11 div {
+  position: absolute;
+  color: white;
+  margin-top: 150px;
+  margin-left: 150px;
+  font-weight: 600;
+}
+
+.sec-12 {
+  margin-top: 70px;
+  background-image: url('https://cdn.shopify.com/s/files/1/0076/4156/3234/files/hero-newsletter.jpg?v=1631003545');
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+
