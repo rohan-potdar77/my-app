@@ -1,9 +1,12 @@
 import './App.css';
-import Registration from './components/Registration';
+import Footer from './Component/Footer';
+
 
 function App() {
   return (
-    <Registration/>
+    <div>
+      <Footer></Footer>
+    </div>
   );
 }
 
