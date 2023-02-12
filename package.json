@@ -3,7 +3,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "private1": true,
+  "private2": true,
   "dependencies": {
 
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
@@ -46,7 +46,7 @@
       "last 1 safari version"
      
       
-      
+
     ]
   }
 }
