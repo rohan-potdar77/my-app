@@ -1,0 +1,184 @@
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family:  DINPro,sans-serif;;
+  }
+  .centered Button{
+    border-radius: 10px;
+  }
+  .image-css{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+
+  }
+
+  .asseen{
+    font-family: DINPro;
+    color: #00000080;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 23px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .forbes a{
+    font-family: DINPro;
+    color: #2d2c2c80;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 23px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .Bustle a{
+    font-family: DINPro;
+    color: #3e3a3a80;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 23px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .banner-curve img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    
+  }
+  .wwd a{
+    font-family: DINPro;
+    color: #04000080;
+    font-size: 25px;
+    letter-spacing: -5px;
+    line-height: 23px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .BYRDIE a{
+    font-family: DINPro;
+    color: #00000080;
+    font-size: 20px;
+    letter-spacing: 5px;
+    line-height: 23px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: bold;
+  }
+ .mens a{
+    font-family: DINPro;
+    color: #00000080;
+    font-size: 25px;
+    letter-spacing: -2px;
+    line-height: 23px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ .CNBC a{
+    font-family: DINPro;
+    color: #00000080;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 23px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ .Bjournals a{
+    font-family: DINPro;
+    color: #00000080;
+    font-size: 15px;
+    letter-spacing: 0;
+    /* line-height: 23px; */
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ .img-left{
+  margin-left: 15px;
+  height: 15vh;
+}
+.img-right{
+  margin-left: 15px;
+  height: 15vh;
+}
+.numbers{
+  position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-ticker{
+  display: flex;
+    font-size: 50px;
+    line-height: 103px;
+    justify-content: center;
+    overflow: hidden;
+    align-items: baseline;
+}
+.number-ticker .digit{
+  height:100px;
+  line-height: 100px;
+  text-align: center;
+  transition:transform .9s linear;
+  
+}
+.number-ticker .digit .col-num{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.top-svg--img {
+  /* width: 185px; */
+  top: 35px;
+  
+}
+/* .top-svg__media {
+  position: relative;
+} */
+.svg-img{
+ height: 25vh;
+ position: absolute;
+ top: -30px;
+ right: 60px;;
+}
+.text{
+  font-weight: bold;
+}
+.best-tatto{
+  display: inline-grid;
+  grid-template-columns:8cm 8cm 8cm;
+  justify-content: start;
+}
+.img-design{
+  height: 10vh;
+
+}
+.text-img{
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+.img-1{
+  width: 100%;
+  height: 70vh;
+}
+.enhance{
+  position: relative;
+  top: 5%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: black; 
+}

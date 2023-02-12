@@ -1,9 +1,10 @@
 import './App.css';
-import Registration from './components/Registration';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './components/Home';
 
 function App() {
   return (
-    <Registration/>
+    <Home></Home>
   );
 }
 
