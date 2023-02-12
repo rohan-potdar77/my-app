@@ -1,8 +1,11 @@
+
 {
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "private1": true,
   "dependencies": {
+
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -17,18 +20,21 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+
     "extends": [
       "react-app",
       "react-app/jest"
     ]
   },
   "browserslist": {
+
     "production": [
       ">0.2%",
       "not dead",
