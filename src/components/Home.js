@@ -1,9 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import "../components/Homecss.css"
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+
 export default function Home() {
   return (
     <div>
@@ -25,10 +23,10 @@ export default function Home() {
             class="img-mobile"
           />
         </div>
-        <div className="centered">
+        <div className="centered text-center">
           <h1>FRESH YEAR. FRESH INK.</h1>
           <h3>Keep Your Tatto Looking Healthy + Vibrant </h3>
-          <Button variant="light" className="px-5 mt-5">
+          <Button variant="light" className="px-5 mt-5 ">
             Shop Now
           </Button>
         </div>
@@ -61,7 +59,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <h3 className="mt-5">Tattoos Preserved:</h3>
+      <h3 className="mt-5 text-center">Tattoos Preserved:</h3>
       <div className="numbers">
         <div>
           <img
@@ -208,10 +206,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <h3 className=" text my-5">
+      <h3 className=" text my-5 text-center">
         Best Tattoo Aftercare Products On The Market
       </h3>
-      <div className="best-tatto">
+      <div className="text-center">
+
         <div className="text-img">
           <img
             className="img-fluid img-design"
@@ -237,6 +236,7 @@ export default function Home() {
           ></img>
           <h6 className="mt-3">Hydrates and Restores</h6>
         </div>
+    
       </div>
       <div className="row mx-5">
         <img

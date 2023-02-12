@@ -158,11 +158,12 @@
 .text{
   font-weight: bold;
 }
-.best-tatto{
+/* .best-tatto{
   display: inline-grid;
-  grid-template-columns:8cm 8cm 8cm;
-  justify-content: start;
-}
+  grid-template-columns:auto auto auto;
+  justify-content: center;
+  align-items: center;
+} */
 .img-design{
   height: 10vh;
 
